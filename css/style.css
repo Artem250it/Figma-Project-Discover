@@ -35,9 +35,61 @@ html {
 *::after {
   box-sizing: inherit;
 }
-.item {
-  width: 200px;
-  height: 100px;
-  background-color: green;
-  padding: 20px;
+body {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
 }
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+/* header styles start */
+.header {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-item {
+  margin-right: 82px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
+.header-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  opacity: 0.75;
+}
+/* header styles end */
+
+/* intro styles start */
+.intro{
+  height: 100vh;
+  background: url(../img/svg/intro-bg.svg)no-repeat center;
+  background-size: cover;
+
+/* intro styles end */
