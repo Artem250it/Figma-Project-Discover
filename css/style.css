@@ -50,7 +50,6 @@ body {
 }
 /* header styles start */
 .header {
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -87,9 +86,61 @@ body {
 /* header styles end */
 
 /* intro styles start */
-.intro{
+.intro {
   height: 100vh;
-  background: url(../img/png/intro-bg.png)no-repeat center;
+  background: url(../img/png/intro-bg.png) no-repeat left 7px;
   background-size: cover;
-
+  padding-top: 263px;
+}
+.intro-title {
+  max-width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 22px;
+}
+.intro-subtitle {
+  max-width: 546px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 59px;
+}
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-form-field {
+  width: 297px;
+  background: transparent url(../img/png/Oval.png) no-repeat left top;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.search-form-field::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.search-form-submit {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  background: #1b7dff;
+  border: 0;
+}
+.search-form-submit:hover,
+.search-form-submit:focus,
+.search-form-submit:active {
+  background: #0852b2;
+}
 /* intro styles end */
