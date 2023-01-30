@@ -264,7 +264,7 @@ img {
 }
 .places-view-all:hover,
 .places-view-all:focus {
-  opacity: 0.5;
+  opacity: 0.65;
 }
 .places-cards {
   display: grid;
@@ -326,3 +326,68 @@ img {
   z-index: 4;
 }
 /*Playces style end*/
+
+/*Tuors styles start*/
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours-tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+.tour-info {
+  padding-left: 47px;
+}
+.tour-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+.tour-desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+.tour-more {
+  padding-right: 59px;
+  font-size: 16px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../img/png/arrow-right-icon.png) no-repeat 95% center;
+  transition: 0.2s all;
+}
+.tour-more:hover,
+.tour-more:focus {
+  background: url(../img/png/arrow-right-icon.png) no-repeat right center;
+}
+/*Tuors styles end*/
+
+/*Top styles start*/
+.top {
+  margin-bottom: 86px;
+}
+.top-title {
+  margin-bottom: 54px;
+}
+.top-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+.top-card-pic {
+  position: relative;
+}
+.top-card-status {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+}
+
+/*Top styles end*/
